@@ -1,0 +1,26 @@
+.transaction-history {
+  margin: 0 auto 50px;
+  text-align: center;
+  background-color: rgb(228, 240, 175);
+  color: rgb(25, 49, 0);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.headrow {
+  background-color: rgb(187, 227, 143);
+}
+
+.row:nth-child(2n + 2) {
+  background-color: rgb(214, 236, 164);
+}
+
+.cell {
+  padding: 15px 45px;
+  cursor: default;
+}
+
+.cell:hover {
+  background-color: rgb(255, 249, 196);
+}
